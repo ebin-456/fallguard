@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bgGrad)" />
+  <rect width="188" height="188" x="2" y="2" rx="40" fill="none" stroke="#334155" stroke-width="2" opacity="0.6" />
+  <path d="M96 24 L148 42 C148 98 126 142 96 160 C66 142 44 98 44 42 Z" 
+        fill="#1e293b" stroke="url(#shieldGrad)" stroke-width="6" stroke-linejoin="round" />
+  <path d="M56 96 L73 96 L81 78 L88 114 L96 68 L103 122 L111 90 L118 102 L124 96 L136 96" 
+        fill="none" stroke="url(#pulseGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="96" cy="44" r="4" fill="#10b981" />
+</svg>
