@@ -205,7 +205,7 @@ export function App() {
           <SimulatorControls
             isOpen={isSimDrawerOpen}
             onClose={() => setIsSimDrawerOpen(false)}
-            onTriggerAction={() => {}}
+            onTriggerAction={() => { }}
           />
         )}
 

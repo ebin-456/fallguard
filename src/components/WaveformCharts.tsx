@@ -346,3 +346,4 @@ export const WaveformCharts: React.FC<WaveformChartsProps> = ({
     </div>
   );
 };
+

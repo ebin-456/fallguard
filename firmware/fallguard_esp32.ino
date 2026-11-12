@@ -572,3 +572,4 @@ void loop() {
   // Update LED and Buzzer according to state
   updateAlarmIndicators();
 }
+

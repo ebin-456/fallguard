@@ -1,12 +1,12 @@
 import React from 'react';
-import { 
-  X, 
-  Wifi, 
-  AlertTriangle, 
-  Cpu, 
-  Download, 
-  Shield, 
-  Layers 
+import {
+  X,
+  Wifi,
+  AlertTriangle,
+  Cpu,
+  Download,
+  Shield,
+  Layers
 } from 'lucide-react';
 
 interface OfflineInfoModalProps {
